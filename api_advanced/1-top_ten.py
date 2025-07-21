@@ -14,8 +14,7 @@ def top_ten(subreddit):
             posts = response.json()['data']
             for post in posts['children'][:10]:
                 print(post['data']['title'])
-        else:
-            print(None)
+            return
     except Exception:
         pass
     print("OK")
