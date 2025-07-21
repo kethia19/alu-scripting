@@ -1,5 +1,9 @@
 #!/usr/bin/python3
-"""Query Reddit API for top posts"""
+"""
+Module defines a function to query the Reddit API and print
+the titles of the top 10 hot posts.
+If the subreddit is invalid or inaccessible, it prints "OK".
+"""
 
 import requests
 

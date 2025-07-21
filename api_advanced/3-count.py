@@ -52,6 +52,6 @@ if __name__ == '__main__':
     count_words("hello", ['REDDIT', 'german', 'HI', 'whynot'])
     count_words('unpopular', ['down', 'vote', 'downvote',
                               'you', 'her', 'unpopular', 'politics'])
-    count_words("hello", ['hello', 'hello', 'hello'])
-    count_words("unpopular", ["react", "python", "java",
-    "javascript", "scala", "no_result_for_this"])
+    # count_words("hello", ['hello', 'hello', 'hello'])
+    # count_words("unpopular", ["react", "python", "java",
+    # "javascript", "scala", "no_result_for_this"])
