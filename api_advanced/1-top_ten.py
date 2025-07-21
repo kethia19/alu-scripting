@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 """Query Reddit API for top posts"""
+
 import requests
 
 
