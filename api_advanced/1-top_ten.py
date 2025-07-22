@@ -17,4 +17,4 @@ def top_ten(subreddit):
             return
     except Exception:
         pass
-    return "OK"
+    print("OK", end="")
