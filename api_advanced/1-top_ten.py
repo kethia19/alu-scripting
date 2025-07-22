@@ -6,10 +6,11 @@ import sys
 
 def top_ten(subreddit):
     """Prints the titles of the first 10 hot posts"""
-    url = f"https://www.reddit.com/r/{subreddit}/hot.json"
+    url = "https://www.reddit.com/r/{}/hot.json" \
+        .format(subreddit)
     headers = {'User-agent': 'Mozilla/5.0'}
     try:
-        response = requests.get(url, headers=headers, allow_redirects=False)
+        response = requests.get(url, headers=headers)
         if response.status_code == 200:
             posts = response.json()['data']
             for post in posts['children'][:10]:
