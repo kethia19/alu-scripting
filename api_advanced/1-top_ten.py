@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 """DOCS"""
 import requests
-import sys
 
 
 def top_ten(subreddit):
@@ -18,4 +17,5 @@ def top_ten(subreddit):
             return
     except Exception:
         pass
-    sys.stdout.write("OK")
+
+    print("OK")
