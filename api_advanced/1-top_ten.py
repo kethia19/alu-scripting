@@ -16,4 +16,5 @@ def top_ten(subreddit):
                 print(post['data']['title'])
             return
     except Exception:
-        print("OK", end="")
+        pass
+    print("OK", end="")
